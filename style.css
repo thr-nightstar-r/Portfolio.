@@ -1,6 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@200..800&family=National+Park:wght@200..800&family=Red+Hat+Display&display=swap');
+
 body {
-  font-family: "Dosis", sans-serif;
-  font-weight: 500;
+  font-family: "Red-Hat-Display", "Abel", "Dosis", "National-Park", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  background-color: #5f5b5b;"
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+
+.logo {
+    font-size: 3rem;
+    margin-right:2rem;
+    font-family: "Red-Hat-Display", sans-serif;
+    color: var(--primary-color);
+    font-weight:300;
+    
+}
+.image-gradient{
+  position:absolute;
+  top:0;
+  right:0:
+  opacity:0.5;
+  z-indez:-1;
+}
+
+.layer-blur{
+  height:0;
+  width:0;
+  position:absolute;
+  top:30%;
+  right:0;
+  box-shadow: 0 0 700px 15px #fff;
+  rotate:-30deg;
+  z-index: -1;
+  box-shadow: 0 0 0 black:
 }
 
 .imgbox {
@@ -10,3 +46,30 @@ body {
   width: 100%;
   height: 100%;
 }/*# sourceMappingURL=style.css.map */
+
+.robo-3d{
+  position: fixed;
+  right: -30%;
+  z-index:-1;
+}
+
+
+
+@media (max-width: 1300px){
+  .robo-3d{
+    scale: 0.8;
+    top-right: 20%;
+    right : 2%;
+     z-index:-1;
+
+  }
+}
+
+@media (max-width: 768px){
+  .robo-3d{
+    scale: 0.5;
+    top: 25%;
+    right: -10%;
+     z-index:-1;
+  }
+}

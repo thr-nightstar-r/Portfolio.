@@ -11,14 +11,17 @@
     <title>Raj Verma</title>
     <link rel="icon" href="./assets/images/logo.png">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
-<body style="font-family: 'Varela', sans-serif;">
-    <header class="header">
+<body >
+    <header data-aos="fade-down" data-aos-duration="1500" class="header">
         <div class="custom-container">
             <div class="header__wrapper">
-                <div class="menu">
+                <div data-aos="fade-down" data-aos-duration="2000" class="menu">
+                         <div data-aos="fade-down" data-aos-duration="2100" class="logo">R.J</div>
                     <label class="menu__btn" for="menu">
                         <input type="checkbox" id="menu" />
                         <span></span>
@@ -63,8 +66,8 @@
                         </ul>
                     </nav>
                 </div>
-                <ul class="header__media">
-                    <li class="social-btn social-btn--mail">
+                <ul data-aos="fade-down" data-aos-duration="2000" class="header__media">
+                    <li data-aos="fade-down" data-aos-duration="2100" class="social-btn social-btn--mail">
                         <a href="mailto:rajv122554@gmail.com">
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="black"
                                 class="bi bi-envelope" viewBox="0 0 16 16">
@@ -73,7 +76,7 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="social-btn social-btn--tel">
+                    <li data-aos="fade-down" data-aos-duration="2100" class="social-btn social-btn--tel">
                         <a href="tel:(+91)9115238331">
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="black"
                                 class="bi bi-telephone" viewBox="0 0 16 16">
@@ -82,7 +85,7 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="social-btn social-btn--instagram">
+                    <li data-aos="fade-down" data-aos-duration="2100" class="social-btn social-btn--instagram">
                         <a href="https://www.instagram.com/the_nightstar_r/" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="black"
                                 class="bi bi-instagram" viewBox="0 0 16 16">
@@ -91,7 +94,7 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="social-btn social-btn--linkedin"><a href="#">
+                    <li data-aos="fade-down" data-aos-duration="2100" class="social-btn social-btn--linkedin"><a href="#">
                             <a href="https://www.linkedin.com/in/raj-verma-398465324/" target="_blank">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="black"
                                     class="bi bi-linkedin" viewBox="0 0 16 16">
@@ -100,7 +103,7 @@
                                 </svg>
                             </a>
                     </li>
-                    <li class="social-btn social-btn--linkedin"><a href="#">
+                    <li data-aos="fade-down" data-aos-duration="2100" class="social-btn social-btn--linkedin"><a href="#">
                             <a href="https://github.com/thr-nightstar-r" target="_blank">
                                 <svg height="12" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="12"
                                     data-view-component="true" class="octicon octicon-mark-github v-align-middle">
@@ -120,13 +123,15 @@
                 <div class="hero__wrapper">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <div class="hero__img-box">
+                            <div data-aos="zoom-in-up" data-aos-duration="1600" class="hero__img-box">
                                 <img class="hero__img" src="assets/images/me.png" alt="">
                                 <div class="hero__img-shadow"></div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <div class="header-text">
+                        <img class="image-gradient" src="assets/images/gradient.png">
+                        <div class="layer-blur"></div>
+                        <spline-viewer class="robo-3d" url="https://prod.spline.design/H-ZQajqQHRx9rXuv/scene.splinecode"></spline-viewer>                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div data-aos="zoom-in-up" data-aos-duration="1600" class="header-text">
                                 <div class="header-text__top">
                                     <h1>
                                         <span class="header-text__title">Raj</span>
@@ -138,7 +143,7 @@
                                 </div>
                             </div>
                             <a href="assets/documents/Resume.pdf" target="_blank" open>
-                                <button class="btn__main">
+                                <button class="btn__main" data-aos="zoom-in" data-aos-duration="1600" >
                                     Download Resume
                                     <div class="btn__main__horizontal"></div>
                                     <div class="btn__main__vertical"></div>
@@ -201,7 +206,7 @@
         <section class="skills mt-5" id="skills">
             <div class="custom-container">
                 <h2 class="title"><span data-hover-item="skill">Skills</span></h2>
-                <div style="background-color: #FFFFFF;" class="skills__wrapper" data-hover-in="skill">
+                <div style="background-color: #b4a9a9;" class="skills__wrapper" data-hover-in="skill">
                     <div class="skill">
                         <div class="skill__icon">
                             <img class="skill__img" src="assets/images/html.png" alt="">
@@ -590,9 +595,9 @@
                             </a>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                            <a href="https://thr-nightstar-r.github.io/animated_portfolio/" target="_blank"
+                            <a href="https://weatherapp-nine-lac.vercel.app/" target="_blank"
                                 class="work__box work__box--3">
-                                <img style="display: flex; border-radius: 8px;" class="work__img"
+                                <img style="display: flex; border-radius: 8px; scale:0.8;" class="work__img"
                                     src="assets/images/weather.png" alt="">
                                 <div style="display: flex; border-radius: 8px;" class="work__close">
                                     <svg class="work__plus" height="30" viewBox="0 0 426.66667 426.66667" width="30"
@@ -600,7 +605,7 @@
                                         <path
                                             d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0" />
                                     </svg>
-                                    <span class="work__title">Animated card Portfolio</span>
+                                    <span class="work__title">Weather App</span>
                                 </div>
                             </a>
                         </div>
@@ -624,7 +629,7 @@
                                                 <div class="col-xl-6 col-lg-6 col-sm-12 col-md-12">
                                                     <div class="form-group mb-5">
                                                         <input
-                                                            style="background-color: #F0F0F0; border-radius: 5px; font-size: 16px;"
+                                                            style="background-color: #b4a9a9; border-radius: 5px; font-size: 16px;"
                                                             type="text" class="form-control" name="name" id="name"
                                                             placeholder=" Name">
                                                     </div>
@@ -632,7 +637,7 @@
                                                 <div class="col-xl-6 col-lg-6 col-sm-12 col-md-12">
                                                     <div class="form-group mb-5">
                                                         <input
-                                                            style="background-color: #F0F0F0 ; border-radius: 5px; font-size: 16px;"
+                                                            style="background-color: #b4a9a9; border-radius: 5px; font-size: 16px;"
                                                             type="email" class="form-control" name="email" id="email"
                                                             placeholder=" E-mail">
                                                     </div>
@@ -640,7 +645,7 @@
                                                 <div class="col-md-12">
                                                     <div class="form-group mb-5">
                                                         <textarea
-                                                            style="background-color: #F0F0F0; border-radius: 5px; font-size: 17px; padding: 12px 0; "
+                                                            style="background-color: #b4a9a9; border-radius: 5px; font-size: 17px; padding: 12px 0; "
                                                             name="message" class="form-control" id="message" cols="30"
                                                             rows="7" placeholder=" Message"></textarea>
                                                     </div>
@@ -656,10 +661,10 @@
                                     </div>
                                 </div>
                                 <div style="padding-top: 25px;" class="col-md-5 d-flex align-items-stretch">
-                                    <div style="background-color: white; margin-bottom: 0px;" class="info-wrap w-100 ">
+                                    <div style="background-color: #b4a9a9;; margin-bottom: 0px;" class="info-wrap w-100 ">
                                         <h3 style="font-size: 20px;" class="mb-4 mt-md-4 d-flex"></h3>
                                         <div class="dbox w-100 d-flex align-items-start">
-                                            <div style="background-color: #85addb;"
+                                            <div style="background-color: #e7e7e7;"
                                                 class="icon d-flex align-items-center justify-content-center me-5">
                                                 <svg version="1.1" width="24" height="24" fill="white" id="Layer_1"
                                                     viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
@@ -676,7 +681,7 @@
                                             </div>
                                         </div>
                                         <div class="dbox w-100 d-flex align-items-center">
-                                            <div style="background-color: #85addb;"
+                                            <div style="background-color: #e7e7e7;"
                                                 class="icon d-flex align-items-center justify-content-center me-5">
                                                 <svg version="1.1" width="24" height="24" fill="white" id="Capa_1"
                                                     width="35px" height="35px" viewBox="0 0 35 35"
@@ -693,7 +698,7 @@
                                             </div>
                                         </div>
                                         <div class="dbox w-100 d-flex align-items-center">
-                                            <div style="background-color:#85addb;"
+                                            <div style="background-color:#e7e7e7;"
                                                 class="icon d-flex align-items-center justify-content-center me-5">
                                                 <svg version="1.1" width="24" height="24" fill="white" id="Capa_1"
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -732,6 +737,11 @@
     </footer>
 
     <script src="assets/js/main.js"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.15/build/spline-viewer.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
    
 </body>
 
