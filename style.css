@@ -12,7 +12,7 @@ body {
 
 
 .logo {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-right:2rem;
     font-family: "Red-Hat-Display", sans-serif;
     color: var(--primary-color);
