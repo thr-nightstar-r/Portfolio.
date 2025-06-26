@@ -58,7 +58,7 @@ body {
 @media (max-width: 1300px){
   .robo-3d{
     scale: 0.8;
-    top-right: 20%;
+    top-right: -20%;
     right : 2%;
      z-index:-1;
 
