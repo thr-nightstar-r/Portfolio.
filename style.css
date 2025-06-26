@@ -47,7 +47,32 @@ body {
   height: 100%;
 }/*# sourceMappingURL=style.css.map */
 
+.robo-3d{
+  position: fixed;
+  right: -30%;
+  z-index:-1;
+}
 
+
+
+@media (max-width: 1300px){
+  .robo-3d{
+    scale: 0.8;
+    top-right: 20%;
+    right : 2%;
+     z-index:-1;
+
+  }
+}
+
+@media (max-width: 768px){
+  .robo-3d{
+    scale: 0.5;
+    top: 25%;
+    right: -10%;
+     z-index:-1;
+  }
+}
 
 
 
