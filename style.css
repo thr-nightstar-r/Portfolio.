@@ -12,8 +12,8 @@ body {
 
 
 .logo {
-    font-size: 2rem;
-    margin-right:5px;
+    font-size: 20px;
+    margin-right: 20px;
     font-family: "Red-Hat-Display", sans-serif;
     color: var(--primary-color);
     font-weight:300;
@@ -21,10 +21,10 @@ body {
 }
 .image-gradient{
   position:absolute;
-  top:0;
-  right:0:
+  scale:4.69;
   opacity:0.5;
   z-indez:-1;
+  border-box: 0 0 0 500px black;
 }
 
 .layer-blur{
@@ -33,10 +33,9 @@ body {
   position:absolute;
   top:30%;
   right:0;
-  box-shadow: 0 0 700px 15px #fff;
+  box-shadow: 0 0 700px 80px #fff;
   rotate:-30deg;
   z-index: -1;
-  box-shadow: 0 0 0 black:
 }
 
 .imgbox {
