@@ -63,11 +63,7 @@ body {
 
   }
   .image-gradient{
-  position:absolute;
-  scale:4.69;
-  opacity:0.5;
-  z-indez:-1;
-  border-box: 0 0 0 500px black;
+ display:none;
 
 }
 
@@ -80,11 +76,7 @@ body {
   }
 
   .image-gradient{
-  position:absolute;
-  scale:4.69;
-  opacity:0.5;
-  z-indez:-1;
-  border-box: 0 0 0 500px black;
+   display:none;
 }
 
 
